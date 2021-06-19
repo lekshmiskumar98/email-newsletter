@@ -1,6 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800;900&display=swap');
+/* giving  colours*/
 
 
+/* it will select after and before tags, by default we are deleting the space everything */
+*,* ::after,*::before{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/* changing the font size */
+html{
+    font-size:16px;
+}
 body{
     font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color:powderblue;
+}
+.container {
+    width:80%;
+    margin:auto;
+    overflow: hidden;
 }
